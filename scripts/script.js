@@ -81,6 +81,7 @@ $( "#btnSubmit" ).click(function() {
   context.textBaseline = "middle";
   context.font = "90px arial";
   context.fillStyle = "#8B0000";
+  context.fillStyle = "white";
 
   context.fillText(data, 310, 685);
 
