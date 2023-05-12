@@ -86,7 +86,7 @@ $( "#btnSubmit" ).click(function() {
   context.font = "95px arial";
   context.fillStyle = "white";
  
-  context.fillText(n1, 282, 907);
+  context.fillText("R$ " + n1, 282, 907);
   //context.fillText(n2, 620, 943);
   
   context.restore();

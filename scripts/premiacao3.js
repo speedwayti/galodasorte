@@ -12,7 +12,7 @@ arialFont.load().then(function (font) {
 });
 
 const baseImage = new Image();
-baseImage.src = "./sorteiodehoje.jpg";
+baseImage.src = "./sorteiodehojeveramendes.jpg";
 
 
 document.getElementById("btnShare").addEventListener("click", shareImage);
