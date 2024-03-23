@@ -71,6 +71,7 @@ $( "#btnSubmit" ).click(function() {
   const n2 = $("#number2").val();
   const n3 = $("#number3").val();
   const n4 = $("#number4").val();
+  const n5 = $("#number5").val();
   const data = $("#data").val();
   
   context.clearRect(0, 0, canvas.width, canvas.height);
@@ -89,10 +90,11 @@ $( "#btnSubmit" ).click(function() {
   context.font = "160px arial";
   context.fillStyle = "white";
  
-  context.fillText(n1, 282, 825);
-  context.fillText(n2, 420, 825);
-  context.fillText(n3, 558, 825);
-  context.fillText(n4, 696, 825);
+  context.fillText(n1, 205, 825);
+  context.fillText(n2, 345, 825);
+  context.fillText(n3, 485, 825);
+  context.fillText(n4, 625, 825);
+  context.fillText(n5, 765, 825);
   context.restore();
 
 });
@@ -103,6 +105,7 @@ $( "#btnClear" ).click(function() {
   $("#number2").val('');
   $("#number3").val('');
   $("#number4").val('');
+  $("#number5").val('');
   $("#data").val('');
   context.clearRect(0, 0, canvas.width, canvas.height);
   context.drawImage(baseImage, 0, 0);
