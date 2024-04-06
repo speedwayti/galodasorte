@@ -1,18 +1,22 @@
 const canvas = document.querySelector("canvas");
 const context = canvas.getContext("2d");
-
-
+const base = "../../";
+const city = getCity();
 const arialFont = new FontFace(
   "arial",
-  "url(./assets/arial-bold.ttf)"
+  "url("+base+"assets/arial-bold.ttf)"
 );
 arialFont.load().then(function (font) {
   // with canvas, if this is ommited won't work
   document.fonts.add(font);
 });
 
+
+
 const baseImage = new Image();
-baseImage.src = "./sorteiodehojepm.jpg";
+baseImage.src = city+"/sorteio.jpg";
+
+//alert(baseImage.src);
 
 
 document.getElementById("btnShare").addEventListener("click", shareImage);
@@ -110,5 +114,13 @@ window.onload = () => {
 
   context.save();
 };
+
+
+function getCity(){
+  var path = window.location.pathname.split("/");
+  var tam = path.length;
+  return base+"img/"+path[tam-2];
+  
+}
 
 
