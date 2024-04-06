@@ -16,7 +16,7 @@ arialFont.load().then(function (font) {
 const baseImage = new Image();
 baseImage.src = city+"/sorteio.jpg";
 
-alert(baseImage.src);
+//alert(baseImage.src);
 
 
 document.getElementById("btnShare").addEventListener("click", shareImage);
