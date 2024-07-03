@@ -78,10 +78,10 @@ $( "#btnSubmit" ).click(function() {
   context.save();
 
   context.textBaseline = "middle";
-  context.font = "120px arial";
+  context.font = "130px arial";
   context.fillStyle = "white";
 
-  context.fillText(n1, 370, 720);
+  context.fillText(n1, 358, 690);
 
 
   context.textBaseline = "middle";
@@ -93,10 +93,10 @@ $( "#btnSubmit" ).click(function() {
 
 
   context.textBaseline = "middle";
-  context.font = "100px arial";
+  context.font = "130px arial";
   context.fillStyle = "white";
  
-  context.fillText(n2, 400, 920);
+  context.fillText(n2, 358, 923);
   //context.fillText(n2, 620, 943);
   
   context.restore();
