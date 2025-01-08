@@ -13,7 +13,7 @@ arialFont.load().then(function (font) {
 });
 
 const baseImage = new Image();
-baseImage.src = city+"/resultadouniconatal.jpg";
+baseImage.src = city+"/resultadounico.jpg";
 
 
 document.getElementById("btnShare").addEventListener("click", shareImage);
