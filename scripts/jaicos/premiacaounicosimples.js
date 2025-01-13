@@ -71,8 +71,9 @@ $( "#btnSubmit" ).click(function() {
   const n1 = $("#number1").val();
   const n2 = $("#number2").val();
   const n3 = $("#number3").val();
-  /*const n4 = $("#number4").val();
-  const n5 = $("#number5").val();*/
+  const n4 = $("#number4").val();
+  const n5 = $("#number5").val();
+  /*const n5 = $("#number5").val();*/
   const box1 = $("#box1").val();
   const box2 = $("#box2").val();
   const box3 = $("#box3").val();
@@ -98,6 +99,12 @@ $( "#btnSubmit" ).click(function() {
   context.fillText(n1, 560, 1160);
   context.fillText(n2, 560, 1375);
   context.fillText(n3, 560, 1590);
+  
+  context.font = "55px arial";
+  context.fillText(n4, 170, 575);
+
+  context.font = "55px arial";
+  context.fillText(n5, 115, 750);
 
   context.font = "45px arial";
 
