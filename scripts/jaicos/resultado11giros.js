@@ -116,7 +116,7 @@ $( "#btnSubmit" ).click(function() {
   context.fillText(n3, 180, 1355);
   context.fillText(n4, 892, 1355);
   context.fillText(n5, 540, 1493);
-  context.fillText(n5, 540, 1635);
+  context.fillText(n6, 540, 1635);
 
   context.font = "80px arial";
 
